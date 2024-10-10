@@ -1,0 +1,21 @@
+let dayOfWeek = prompt("Enter a day of the week:");
+
+switch (dayOfWeek.toLowerCase()) {
+  case "monday":
+    console.log("Your task for Monday is: Finish your assignments.");
+    break;
+  case "tuesday":
+    console.log("Your task for Tuesday is: Study for the upcoming exam.");
+    break;
+  case "wednesday":
+    console.log("Your task for Wednesday is: Attend the team meeting.");
+    break;
+  case "thursday":
+    console.log("Your task for Thursday is: Complete the project report.");
+    break;
+  case "friday":
+    console.log("Your task for Friday is: Relax and enjoy your weekend!");
+    break;
+  default:
+    console.log("Invalid day of the week.");
+}
